@@ -1,0 +1,52 @@
+// Main Style
+
+// General
+@import "variables";
+@import "vendor/bootstrap-includes";
+@import "helpers/all";
+@import "global";
+@import "components/all";
+@import "pages/all";
+
+#ticker-search-bar {
+  margin: 4rem 0;
+
+  input {
+    margin-left: 1.5rem;
+    border: 2px solid black;
+    padding-left: 10px;
+    font-style: italic;
+  }
+
+  button {
+    margin-left: 1.5rem;
+    color: white;
+    background: #4896EC;
+    border-radius: 8px;
+    border-style: hidden;
+    padding: 4px 25px;
+  }
+}
+
+#ticker-trade-data {
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  text-align: center;
+  height: 35px;
+  font-size: 10px;
+  width: 25%;
+}
+
+tbody tr:nth-child(odd){
+  background-color: #E6E6E6;
+}
+
+th {
+  background-color: #9E9E9E;
+  color: white;
+  font-weight: normal;
+  text-align: center;
+}
