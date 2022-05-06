@@ -6,7 +6,7 @@ const Home = () => {
   const [searchText, setSearchText] = useState('')
 
   const onChange = (event) => {
-    setInputText(event.target.value)
+    setInputText(event.target.value.toUpperCase())
   };
   const setTickerSearch = () => {
     setSearchText(inputText)
